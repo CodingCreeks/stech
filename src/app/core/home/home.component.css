@@ -1,0 +1,25 @@
+/*img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-indicators li {
+  display: table-row;
+  cursor: pointer;
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+section {
+  margin-bottom: 11.25rem;
+  width: 100%;
+}*/
+
+img {
+  object-fit: contain;
+  max-height:100vh;
+  max-width:100%;
+}

@@ -1,0 +1,9 @@
+img {
+  max-width: 100%;
+}
+
+p i:hover{
+  color: dodgerblue;
+  font-family: monospace;
+  font-size: 150%;
+}

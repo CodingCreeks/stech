@@ -1,0 +1,30 @@
+/*input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+input.ng-required label:after {
+  color: #e32;
+  content: ' *';
+  display: inline;
+}*/
+
+.container{
+  margin-top: 3.5rem;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid limegreen;
+  /* green */
+}
+
+.ng-invalid:not(form).ng-touched {
+  border-left: 5px solid red;
+  /* red */
+}
