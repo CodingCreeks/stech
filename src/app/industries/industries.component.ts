@@ -16,7 +16,6 @@ export class IndustriesComponent implements OnInit {
   }
 
   onChildSelect() {
-    console.log("on child called!...");
     this.childSelected = true;
   }
 }

@@ -1,56 +1,21 @@
-/*.container-fluid {
-  position: relative;
-  height: 4rem;
-  font-size: 0.75rem;
-  line-height: 2rem;
-  border: 1px solid green;
-}*/
-
-
-/*footer {
-  margin-top: 2rem;
-  width: 100%;
-  border-top: 1px solid #f5f5f5;
-  text-align: center;
-}*/
-
-
-/*ul {
-    display:inline-table;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-}*/
-
-
-/*li {
-    float: left;
-}*/
-
-
-/*li a {
-    margin-left: 0.75rem;
-}*/
-
 #footer-main {
-  display: flex;
-  position: relative;
-  /* margin-top: 0.65rem; */
-  height: 3.7rem;
-  /* line-height: 2rem; */
-  bottom: 0rem;
-  text-align: center;
-  width: 100%;
-  background: deepskyblue;
-  /*background: dodgerblue;*/
-  font-size: 0.8rem;
+    display: flex;
+    position: relative;
+    /* margin-top: 0.65rem; */
+    height: 3.7rem;
+    /* line-height: 2rem; */
+    bottom: 0rem;
+    text-align: center;
+    width: 100%;
+    background: deepskyblue;
+    /*background: dodgerblue;*/
+    font-size: 0.8rem;
 }
 
 li a:hover {
-  text-decoration-line: underline;
+    text-decoration-line: underline;
 }
 
 i.fa:hover {
-  font-size: 150%
+    font-size: 150%
 }

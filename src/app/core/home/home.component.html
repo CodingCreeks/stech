@@ -4,17 +4,17 @@
   <p>Power of Engineering, Automation, Software Development, Consulting & Services</p>
 </div>-->
 <div class="container-fluid">
-  <div class="row">
-    <div class="col pl-0 pr-0">
-      <ngb-carousel>
-        <ng-template *ngFor="let imgId of [1, 2, 3]" ngbSlide>
-          <img class="mx-auto" src="assets/Images/carousel-{{imgId}}.jpg" alt="Random slide no {{imgId}}">
-          <!--<div class="carousel-caption">
-        <h3>slide label no {{imgIdx}}</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>-->
-        </ng-template>
-      </ngb-carousel>
+    <div class="row">
+        <div class="col pl-0 pr-0">
+            <ngb-carousel>
+                <ng-template *ngFor="let imgId of [1, 2, 3, 4, 5]" ngbSlide>
+                    <img class="mx-auto" src="assets/Images/carousel-{{imgId}}.jpg" alt="Random slide no {{imgId}}" style="height: 700px; width:100%">
+                    <!-- <div class="carousel-caption">
+                        <h3>slide label no {{imgIdx}}</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div> -->
+                </ng-template>
+            </ngb-carousel>
+        </div>
     </div>
-  </div>
 </div>

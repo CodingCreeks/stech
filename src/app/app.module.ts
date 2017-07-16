@@ -1,30 +1,31 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from "@angular/forms";
+import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AppRoutingModule } from "app/app-routing.module";
+import { AppRoutingModule } from 'app/app-routing.module';
 
-import { CoreModule } from "app/core/core.module";
-import { IndustriesModule } from "app/industries/industries.module";
-import { ServicesModule } from "app/services/services.module";
-import { OurSolutionsModule } from "app/our-solutions/our-solutions.module";
+import { CoreModule } from 'app/core/core.module';
+import { IndustriesModule } from 'app/industries/industries.module';
+import { ServicesModule } from 'app/services/services.module';
+import { OurSolutionsModule } from 'app/our-solutions/our-solutions.module';
 
-import { AboutModule } from "app/about/about.module";
-import { CareersModule } from "app/careers/careers.module";
-import { ContactModule } from "app/contact/contact.module";
-import { AuthModule } from "app/auth/auth.module";
+import { AboutModule } from 'app/about/about.module';
+import { TermsModule } from './terms/terms.module';
+import { CareersModule } from 'app/careers/careers.module';
+import { ContactModule } from 'app/contact/contact.module';
+import { AuthModule } from 'app/auth/auth.module';
 
 import { AppComponent } from './app.component';
-import { ContactService } from "app/contact/contact.service";
-import { AuthService } from "app/auth/auth.service";
+import { ContactService } from 'app/contact/contact.service';
+import { AuthService } from 'app/auth/auth.service';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent ],
   imports: [
     BrowserModule, FormsModule, HttpModule, NgbModule.forRoot(), AppRoutingModule, CoreModule,
-    IndustriesModule, ServicesModule, OurSolutionsModule, AboutModule, CareersModule, ContactModule, AuthModule
+    IndustriesModule, ServicesModule, OurSolutionsModule, AboutModule, TermsModule, CareersModule, ContactModule, AuthModule
   ],
   providers: [ContactService, AuthService],
   bootstrap: [AppComponent]

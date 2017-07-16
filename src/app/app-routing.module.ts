@@ -8,6 +8,7 @@ const appRoutes: Routes = [
     { path: 'services', loadChildren: './services/services.module#ServicesModule' },
     { path: 'ourSolutions', loadChildren: './our-solutions/our-solutions.module#OurSolutionsModule' },
     { path: 'about', loadChildren: './about/about.module#AboutModule' },
+    { path: 'terms', loadChildren: './terms/terms.module#TermsModule' },
     { path: 'careers', loadChildren: './careers/careers.module#CareersModule' },
     { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
 ];
