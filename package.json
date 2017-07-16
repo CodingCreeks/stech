@@ -50,5 +50,8 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/CodingKnowledge/stech.git",
+  "author": "CodingKnowledge <manjunatha.gunderi@gmail.com>"
 }

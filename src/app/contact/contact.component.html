@@ -1,77 +1,77 @@
-<div id="insutry-parent">
-  <section id="industry">
-    <div class="section-content">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h5>Contact us</h5>
-            <hr>
-            <br>
-            <h6>Prashanth GU</h6>
-            <p><span><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&emsp;+91-9900569550</span></p>
-            <p><span><i class="fa fa-envelope" aria-hidden="true"></i>&ensp; prashanth_gu@sharavathitechnologies.com</span></p>
-            <br>
-            <h6>Manjunatha H</h6>
-            <p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&emsp;+91-9448588968</p>
-            <p><span><i class="fa fa-envelope" aria-hidden="true"></i>&ensp; manjunath_h@sharavathitechnologies.com</span></p>
-          </div>
-          <div class="col">
-            <h5>Contact Information</h5>
-            <hr>
-            <small>Please send us your details. We will contact you shortly </small>
-            <div [hidden]="submitted">
-              <form [formGroup]="contactForm" *ngIf="active" (ngSubmit)="onSubmit()">
-                <div class="form-group">
-                  <label for="inputname"><i class="fa fa-user pr-3" aria-hidden="true"></i> Name </label>
-                  <input type="text" class="form-control" id="inputname" formControlName="name" required placeholder="Enter your name">
-                  <div *ngIf="formErrors.name" class="alert alert-danger">
-                    {{ formErrors.name }}
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputemail"><i class="fa fa-envelope pr-3" aria-hidden="true"></i>Email Address</label>
-                  <input type="email" class="form-control" id="inputemail" formControlName="email" required placeholder="Enter your email address">
-                  <div *ngIf="formErrors.email" class="alert alert-danger">
-                    {{ formErrors.email }}
-                  </div>
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="inputtitle"><i class="fa fa-briefcase pr-3" aria-hidden="true"></i>Job Title/Designation</label>
-                  <input type="text" class="form-control" id="inputtitle" formControlName="title" required>
-                  <div *ngIf="formErrors.title" class="alert alert-danger">
-                    {{ formErrors.title }}
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputcompany"><i class="fa fa-building pr-3" aria-hidden="true"></i>Company</label>
-                  <input type="text" class="form-control" id="inputcompany" formControlName="company" required>
-                  <div *ngIf="formErrors.company" class="alert alert-danger">
-                    {{ formErrors.company }}
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputcontactnumber"><i class="fa fa-phone pr-3" aria-hidden="true"></i>Contact number</label>
-                  <input type="number" class="form-control" id="inputcontactnumber" formControlName="number" required>
-                  <div *ngIf="formErrors.number" class="alert alert-danger">
-                    {{ formErrors.number }}
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputmessage"><i class="fa fa-comments-o pr-3" aria-hidden="true"></i>Message/Query</label>
-                  <textarea class="form-control" id="inputmessage" rows="3" formControlName="message" required></textarea>
-                  <div *ngIf="formErrors.message" class="alert alert-danger">
-                    {{ formErrors.message }}
-                  </div>
-                </div>
-                <button class="btn btn-outline-primary" type="submit" [disabled]="!contactForm.valid">Submit</button>
-              </form>
+<div id="contact-parent">
+    <section id="contact">
+        <div class="section-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5>Contact us</h5>
+                        <hr>
+                        <br>
+                        <h6>Prashanth GU</h6>
+                        <p><span><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&emsp;+91-9900569550</span></p>
+                        <p><span><i class="fa fa-envelope" aria-hidden="true"></i>&ensp; prashanth_gu@sharavathitechnologies.com</span></p>
+                        <br>
+                        <h6>Manjunatha H</h6>
+                        <p><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&emsp;+91-9448588968</p>
+                        <p><span><i class="fa fa-envelope" aria-hidden="true"></i>&ensp; manjunath_h@sharavathitechnologies.com</span></p>
+                    </div>
+                    <!-- <div class="col">
+                        <h5>Contact Information</h5>
+                        <hr>
+                        <small>Please send us your details. We will contact you shortly </small>
+                        <div [hidden]="submitted">
+                            <form [formGroup]="contactForm" *ngIf="active" (ngSubmit)="onSubmit()">
+                                <div class="form-group">
+                                    <label for="inputname"><i class="fa fa-user pr-3" aria-hidden="true"></i> Name </label>
+                                    <input type="text" class="form-control" id="inputname" formControlName="name" required placeholder="Enter your name">
+                                    <div *ngIf="formErrors.name" class="alert alert-danger">
+                                        {{ formErrors.name }}
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputemail"><i class="fa fa-envelope pr-3" aria-hidden="true"></i>Email Address</label>
+                                    <input type="email" class="form-control" id="inputemail" formControlName="email" required placeholder="Enter your email address">
+                                    <div *ngIf="formErrors.email" class="alert alert-danger">
+                                        {{ formErrors.email }}
+                                    </div>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputtitle"><i class="fa fa-briefcase pr-3" aria-hidden="true"></i>Job Title/Designation</label>
+                                    <input type="text" class="form-control" id="inputtitle" formControlName="title" required>
+                                    <div *ngIf="formErrors.title" class="alert alert-danger">
+                                        {{ formErrors.title }}
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputcompany"><i class="fa fa-building pr-3" aria-hidden="true"></i>Company</label>
+                                    <input type="text" class="form-control" id="inputcompany" formControlName="company" required>
+                                    <div *ngIf="formErrors.company" class="alert alert-danger">
+                                        {{ formErrors.company }}
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputcontactnumber"><i class="fa fa-phone pr-3" aria-hidden="true"></i>Contact number</label>
+                                    <input type="number" class="form-control" id="inputcontactnumber" formControlName="number" required>
+                                    <div *ngIf="formErrors.number" class="alert alert-danger">
+                                        {{ formErrors.number }}
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputmessage"><i class="fa fa-comments-o pr-3" aria-hidden="true"></i>Message/Query</label>
+                                    <textarea class="form-control" id="inputmessage" rows="3" formControlName="message" required></textarea>
+                                    <div *ngIf="formErrors.message" class="alert alert-danger">
+                                        {{ formErrors.message }}
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-primary" type="submit" [disabled]="!contactForm.valid">Submit</button>
+                            </form>
 
-              <contact-submitted [contact]="contact" [(submitted)]="submitted"></contact-submitted>
+                            <contact-submitted [contact]="contact" [(submitted)]="submitted"></contact-submitted>
+                        </div>
+                    </div> -->
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </div>
