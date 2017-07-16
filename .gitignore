@@ -4,7 +4,6 @@
 /dist
 /tmp
 /out-tsc
-/Images
 
 # dependencies
 /node_modules
@@ -41,3 +40,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Image files
+/.jpg
