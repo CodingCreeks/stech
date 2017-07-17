@@ -1,13 +1,4 @@
 #contact-parent {
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
-
-
-/* .ng-valid[required],
-.ng-valid.required {
-    border-left: 5px solid limegreen;
-}
-
-.ng-invalid:not(form).ng-touched {
-    border-left: 5px solid red;
-} */

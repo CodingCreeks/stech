@@ -1,9 +1,10 @@
-img {
-  max-width: 100%;
+#careers {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
-p i:hover{
-  color: dodgerblue;
-  font-family: monospace;
-  font-size: 150%;
+p i:hover {
+    color: dodgerblue;
+    font-family: monospace;
+    font-size: 150%;
 }
