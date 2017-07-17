@@ -6,3 +6,7 @@
 .row {
     margin-top: 2rem;
 }
+
+.img-responsive {
+    border-radius: 1rem;
+}
