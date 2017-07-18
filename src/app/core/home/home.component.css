@@ -1,0 +1,29 @@
+img {
+    object-fit: cover;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+
+/* #cover {
+    display: flex;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+cover-caption {
+    height: 80%;
+}*/
+
+/deep/.carousel-indicators li {
+    /* width: 2px; */
+    /* height: 4px; */
+    background: #424242;
+}
+
+/deep/.carousel-indicators .active {
+    background: red;
+}
