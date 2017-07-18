@@ -1,21 +1,9 @@
 #footer-main {
     display: flex;
-    position: relative;
-    /* margin-top: 0.65rem; */
-    height: 3.7rem;
-    /* line-height: 2rem; */
-    bottom: 0rem;
-    text-align: center;
-    width: 100%;
-    background: deepskyblue;
-    /*background: dodgerblue;*/
+    background: #f5f5f5;
     font-size: 0.8rem;
 }
 
 li a:hover {
     text-decoration-line: underline;
-}
-
-i.fa:hover {
-    font-size: 150%
 }

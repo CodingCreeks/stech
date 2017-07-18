@@ -1,22 +1,23 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top navbar-full">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<header class="navbar navbar-toggleable-md navbar-light">
+    <nav class="container">
+        <div class="d-flex justify-content-between">
+            <a class="navbar-brand" href="/"> Shavaravathi Technologies </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-  <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li [routerLinkActiveOptions]="'exact:true'" routerLinkActive="active"> <a class="navbar-brand mb-0 method1" routerLink="/">Shavaravathi Technologies</a></li>
-        <li routerLinkActive="active"> <a class="nav-link" routerLink="industries">Industries</a> </li>
-        <li routerLinkActive="active"> <a class="nav-link" routerLink="services">Services</a> </li>
-        <li routerLinkActive="active"> <a class="nav-link" routerLink="ourSolutions">Our Solutions</a> </li>
-      </ul>
-
-    <!--<ul class="navbar-nav ml-auto">-->
-    <ul class="navbar-nav">
-      <li routerLinkActive="active"> <a class="nav-link" routerLink="about">About us</a> </li>
-      <li routerLinkActive="active"> <a class="nav-link" routerLink="careers">Careers</a> </li>
-      <li routerLinkActive="active"> <a class="nav-link" routerLink="contact">Contact us</a></li>
-    </ul>
-  </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="industries">Industries</a> </li>
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="services">Services</a> </li>
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="ourSolutions">Our Solution</a> </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="about">About us</a> </li>
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="careers">Careers</a> </li>
+                <li routerLinkActive="active"> <a class="nav-link" routerLink="contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
