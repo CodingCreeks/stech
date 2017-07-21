@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  facebookLink = 'https://www.facebook.com/sharavathitechnologies/';
+  twitter = '';
+  googlePlus = '';
+  youtube = '';
+  linkedin = '';
 
   constructor() { }
 
