@@ -20,10 +20,6 @@
     margin: 0 0.4rem 0 0.4rem;
 }
 
-a:hover::before {
-    text-decoration: none;
-}
-
 .footer-links .social-links a:hover {
     color: deepskyblue;
     font-weight: bold;
