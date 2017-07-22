@@ -9,6 +9,7 @@ const appRoutes: Routes = [
     { path: 'ourSolutions', loadChildren: './our-solutions/our-solutions.module#OurSolutionsModule' },
     { path: 'about', loadChildren: './about/about.module#AboutModule' },
     { path: 'terms', loadChildren: './terms/terms.module#TermsModule' },
+    { path: 'privacy', loadChildren: './privacy/privacy.module#PrivacyModule' },
     { path: 'careers', loadChildren: './careers/careers.module#CareersModule' },
     { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
 ];

@@ -13,6 +13,7 @@ import { OurSolutionsModule } from 'app/our-solutions/our-solutions.module';
 
 import { AboutModule } from 'app/about/about.module';
 import { TermsModule } from './terms/terms.module';
+import { PrivacyModule } from './privacy/privacy.module';
 import { CareersModule } from 'app/careers/careers.module';
 import { ContactModule } from 'app/contact/contact.module';
 import { AuthModule } from 'app/auth/auth.module';
@@ -22,10 +23,10 @@ import { ContactService } from 'app/contact/contact.service';
 import { AuthService } from 'app/auth/auth.service';
 
 @NgModule({
-  declarations: [AppComponent ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule, FormsModule, HttpModule, NgbModule.forRoot(), AppRoutingModule, CoreModule,
-    IndustriesModule, ServicesModule, OurSolutionsModule, AboutModule, TermsModule, CareersModule, ContactModule, AuthModule
+    IndustriesModule, ServicesModule, OurSolutionsModule, AboutModule, TermsModule, PrivacyModule, CareersModule, ContactModule, AuthModule
   ],
   providers: [ContactService, AuthService],
   bootstrap: [AppComponent]
