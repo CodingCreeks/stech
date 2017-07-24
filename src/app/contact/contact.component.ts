@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, FormBuilder } from "@angular/forms";
-import { ActivatedRoute, Router, Params } from "@angular/router";
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { ActivatedRoute, Router, Params } from '@angular/router';
 
 
 import { forbiddenNameValidator } from '../shared/forbidden-name.directive';
-import { ContactService } from "app/contact/contact.service";
-import { Contact } from "app/contact/contact.model";
+import { ContactService } from 'app/contact/contact.service';
+import { Contact } from 'app/contact/contact.model';
 
 @Component({
   selector: 'app-contact',

@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { ServicesComponent } from "app/services/services.component";
+import { ServicesComponent } from 'app/services/services.component';
 
 const servicesRoutes: Routes = [
     { path: '', component: ServicesComponent }

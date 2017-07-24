@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { CareersComponent } from "app/careers/careers.component";
+import { CareersComponent } from 'app/careers/careers.component';
 
 const careesRoutes: Routes=[
     { path: '', component: CareersComponent}

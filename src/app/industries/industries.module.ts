@@ -1,10 +1,10 @@
-import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
-import { ReactiveFormsModule } from "@angular/forms";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import { IndustriesRoutingModule } from "app/industries/industries-routing.module";
+import { IndustriesRoutingModule } from 'app/industries/industries-routing.module';
 
-import { IndustriesComponent } from "app/industries/industries.component";
+import { IndustriesComponent } from 'app/industries/industries.component';
 import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
 import { AutomotiveComponent } from './automotive/automotive.component';
 import { OilGasComponent } from './oil-gas/oil-gas.component';

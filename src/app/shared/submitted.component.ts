@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { Contact } from "app/contact/contact.model";
+import { Contact } from 'app/contact/contact.model';
 
 @Component({
-    selector: 'contact-submitted',
-    template: `
+  selector: 'app-contact-submitted',
+  template: `
                 <div *ngIf="submitted">
                   <h2>You submitted the following:</h2>
                   <div class="row">
@@ -37,8 +37,8 @@ import { Contact } from "app/contact/contact.model";
 })
 // templateUrl: `./submitted.component.html`})
 export class SubmittedComponent {
-    @Input() contact: Contact;
-    @Input() submitted = false;
-    @Output() submittedChange = new EventEmitter<boolean>();
-    onClick() { this.submittedChange.emit(false); }
+  @Input() contact: Contact;
+  @Input() submitted = false;
+  @Output() submittedChange = new EventEmitter<boolean>();
+  onClick() { this.submittedChange.emit(false); }
 }

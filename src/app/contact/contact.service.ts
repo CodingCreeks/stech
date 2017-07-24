@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Subject } from "rxjs/Subject";
+import { Subject } from 'rxjs/Subject';
 
-import { Contact } from "app/contact/contact.model";
+import { Contact } from 'app/contact/contact.model';
 
 @Injectable()
 export class ContactService {
